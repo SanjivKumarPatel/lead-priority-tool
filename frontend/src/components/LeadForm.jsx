@@ -36,7 +36,7 @@ const LeadForm = ({onCreateLead}) => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className='rounded-lg border border-gray-200 bg-white p-6'>
+    <form onSubmit={handleSubmit} className='rounded-lg border border-gray-400 bg-gray-100 p-6'>
       <h2 className='mb-5 text-xl font-bold'>Add New Lead</h2>
 
       <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
@@ -46,7 +46,7 @@ const LeadForm = ({onCreateLead}) => {
           placeholder='Company name'
           value={formData.companyName}
           onChange={handleChange}
-          className='rounded-md border border-gray-300 px-4 py-2 outline-none focus:border-blue-500'
+          className='rounded-md border border-gray-400 px-4 py-2 outline-none focus:border-blue-500'
           required
         />
 
@@ -56,7 +56,7 @@ const LeadForm = ({onCreateLead}) => {
           placeholder='Website (optional)'
           value={formData.website}
           onChange={handleChange}
-          className='rounded-md border border-gray-300 px-4 py-2 outline-none focus:border-blue-500'
+          className='rounded-md border border-gray-400 px-4 py-2 outline-none focus:border-blue-500'
         />
 
         <input
@@ -65,7 +65,7 @@ const LeadForm = ({onCreateLead}) => {
           placeholder='Industry'
           value={formData.industry}
           onChange={handleChange}
-          className='rounded-md border border-gray-300 px-4 py-2 outline-none focus:border-blue-500'
+          className='rounded-md border border-gray-400 px-4 py-2 outline-none focus:border-blue-500'
           required
         />
 
@@ -75,7 +75,7 @@ const LeadForm = ({onCreateLead}) => {
           placeholder='Company size'
           value={formData.companySize}
           onChange={handleChange}
-          className='rounded-md border border-gray-300 px-4 py-2 outline-none focus:border-blue-500'
+          className='rounded-md border border-gray-400 px-4 py-2 outline-none focus:border-blue-500'
           min='1'
           required
         />
@@ -86,7 +86,7 @@ const LeadForm = ({onCreateLead}) => {
           placeholder='Location (optional)'
           value={formData.location}
           onChange={handleChange}
-          className='rounded-md border border-gray-300 px-4 py-2 outline-none focus:border-blue-500'
+          className='rounded-md border border-gray-400 px-4 py-2 outline-none focus:border-blue-500'
         />
       </div>
 

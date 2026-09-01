@@ -2,8 +2,8 @@ import PriorityBadge from './PriorityBadge.jsx'
 
 const LeadTable = ({leads, loading, search, setSearch, priority, setPriority}) => {
   return (
-    <div className='overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm'>
-      <div className='border-b border-gray-200 p-5 sm:p-6'>
+    <div className='overflow-hidden rounded-xl border border-gray-400 bg-white shadow-sm'>
+      <div className='border-b border-gray-400 p-5 sm:p-6'>
         <div className='flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between'>
           <div>
             <h2 className='text-xl font-bold text-gray-900'>Leads</h2>

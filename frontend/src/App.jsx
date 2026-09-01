@@ -52,7 +52,7 @@ function App() {
   }, [search, priority])
 
   return (
-    <main className='min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-gray-100 px-4 py-8 sm:px-6 lg:px-8'>
+    <main className='min-h-screen bg-gradient-to-b from-purple-100 via-indigo-500 to-gray-900 px-4 py-8 sm:px-6 lg:px-8'>
       <div className='mx-auto max-w-7xl'>
         <div className='mb-8'>
           <p className='mb-2 text-sm font-semibold uppercase tracking-wider text-blue-600'>
