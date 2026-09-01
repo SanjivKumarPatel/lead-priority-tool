@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://lead-priority-tool.onrender.com'
+  baseURL: 'https://lead-priority-tool.onrender.com/api'
 })
 
 export const leadApi = {
